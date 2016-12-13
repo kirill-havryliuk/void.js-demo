@@ -1,0 +1,29 @@
+{
+  "name": "Voidjs-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parallelshell 'npm run build' 'npm run serve'",
+    "build": "export NODE_ENV=production && webpack",
+    "serve": "runit.sh"
+  },
+  "author": "Kirill Gavrilyuk k.gavrilyuk@atomcream.com",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-react": "^6.3.0",
+    "parallelshell": "^2.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "void.js": "^0.1.6",
+    "webpack": "^1.14.0"
+  }
+}

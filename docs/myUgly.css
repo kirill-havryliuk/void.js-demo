@@ -1,0 +1,94 @@
+html, body,  #container {
+    height: 100%;
+}
+
+#wrapper {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding 10px
+}
+
+#field {
+   border: 1px solid black; 
+   font-size: 0;
+   padding: 30px;
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+.cell.active {
+    background: red;
+}
+
+.slider {
+    display: flex;
+    text-align: center;
+}
+
+.slider input {
+    flex: 6;
+}
+
+.slider * {
+    flex: 1;
+    margin: 1px;
+}
+
+#recrFld {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    padding: 10px;
+    display: table;
+    border-radius: 10px
+}
+
+#gj {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: red;
+    text-shadow: 1px 1px black;
+}
+
+#note {
+    padding: 20px;
+    text-align: center;
+} 
+
+#controls {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.label {
+    border: 1px dotted black;
+}
+
+
